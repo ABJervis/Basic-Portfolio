@@ -1,4 +1,47 @@
+body {
+    width: 960px;
+    margin: auto;
+    
+}
 
-h1 {
-    color: blue;
+#header {
+    background: #4aaaab;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border: solid #cccccc;
+    border-width: thin;
+    color: white;
+    float: left;
+    font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+        border-right: none;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+#content {
+    padding: 20px;
+    margin-top: 30px;
+    border: solid #cccccc;
+    border-width: thin;
+    color: #777777;
+
 }
